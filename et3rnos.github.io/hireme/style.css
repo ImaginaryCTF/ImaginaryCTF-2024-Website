@@ -1,0 +1,108 @@
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  opacity: 0.5;
+}
+
+.hashtag {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+.media {
+  padding: 0 1rem;
+}
+
+.last-fieldset {
+  border-bottom: 3px solid white;
+  padding-bottom: 2rem;
+}
+
+fieldset {
+  margin: 1rem;
+  border: 3px solid white;
+  border-radius: 3px;
+  border-bottom: none;
+}
+
+legend {
+  padding: 0 1rem;
+}
+
+.content {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%)
+}
+
+.centered {
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+
+#menu-container {
+  padding: 1.5rem 0;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu-container a {
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  position: relative;
+}
+
+#menu-container a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#menu-container a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.top{
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+body {
+  color: white;
+  background: black;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+#view {
+  overflow: hidden;
+  height: calc(100vh - 68px);
+}
+
+.content-title {
+  letter-spacing: 0.1rem;
+}
