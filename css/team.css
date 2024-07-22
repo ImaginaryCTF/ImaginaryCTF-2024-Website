@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-lighter-gray {
+  background-color: #f7f7f7;
+  padding: 20px 0;
+}
+
+.bg-light-gray {
+  background-color: #e7e7e7;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-card {
+  width: calc(16.66% - 30px);
+  background-color: #fcfcfa;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+}
+
+.team-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.sponsor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsor-card {
+  width: calc(20% - 30px); /* 4 cards wide with margin */
+  background-color: #fcfcfa;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sponsor-card:hover {
+  transform: translateY(-10px);
+}
+
+.sponsor-card img {
+  width: 150px; /* Adjust width for sponsor card images */
+  height: 150px; /* Adjust height for sponsor card images */
+  border-radius: 25%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.sponsor-card h3 {
+  font-size: 24px; /* Adjust font size for sponsor card names */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sponsor-card p {
+  font-size: 18px; /* Adjust font size for sponsor card descriptions */
+  color: #666;
+}
